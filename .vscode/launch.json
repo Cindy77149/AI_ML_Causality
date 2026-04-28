@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Train AI ML Causality",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/AI_ML_causality.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--attr-path",
+        "${workspaceFolder}/data/list_attr_celeba.txt",
+        "--img-folder",
+        "${workspaceFolder}/data/img_align_celeba",
+        "--epochs",
+        "3",
+        "--batch-size",
+        "16",
+        "--output",
+        "${workspaceFolder}/ai_ml_causality_result.png"
+      ]
+    }
+  ]
+}

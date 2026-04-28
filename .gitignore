@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+
+.DS_Store
+
+data/
+*.pt
+*.pth
+*.ckpt
+ai_ml_causality_result.png
